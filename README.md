@@ -1,23 +1,22 @@
 # JavaScript-Performance
 JavaScript性能优化方面归纳
 
-**雅虎14条优化原**
-操作 | 对象
--|-
-1. 尽可能的减少 HTTP 的请求数 | content
-2. 使用 CDN（Content Delivery Network） | server
-3. 添加 Expires 头(或者 Cache-control ) | server
-4. Gzip 压缩 | server
-5. 将 CSS 样式放在页面的上方 | css
-6. 将脚本移动到底部（包括内联的） | javascript
-7. 避免使用 CSS 中的 Expressions | css
-8. 将 JavaScript 和 CSS 独立成外部文件 | javascript css
+**雅虎14条优化原则**
+
+1. 尽可能的减少 HTTP 的请求数 
+2. 使用 CDN（Content Delivery Network） 
+3. 添加 Expires 头(或者 Cache-control ) 
+4. Gzip 压缩 
+5. 将 CSS 样式放在页面的上方
+6. 将脚本移动到底部（包括内联的） 
+7. 避免使用 CSS 中的 Expressions 
+8. 将 JavaScript 和 CSS 独立成外部文件 
 9. 减少 DNS 查询 | content
-10. 压缩 JavaScript 和 CSS (包括内联的) | javascript css
-11. 避免重定向 | server
-12. 移除重复的脚本 | javascript
-13. 配置实体标签（ETags） | css
-14. 使 AJAX 缓存 | 
+10. 压缩 JavaScript 和 CSS (包括内联的) 
+11. 避免重定向 
+12. 移除重复的脚本 
+13. 配置实体标签（ETags） 
+14. 使 AJAX 缓存 
 
 **1. 尽可能的减少 HTTP 的请求数**
 
